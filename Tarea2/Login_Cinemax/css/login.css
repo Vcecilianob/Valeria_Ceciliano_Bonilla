@@ -1,0 +1,69 @@
+h1 {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center; 
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125px;
+    text-decoration: underline;
+    
+}
+
+p {
+    font-size: 15px;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    padding:  0 30px 30px 30px;
+
+}
+
+header {
+    background-image: linear-gradient(to right, #3a9cad, #af4eb8);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.usuario {
+    width: 100%;
+}
+
+a {
+    font-weight: bold;
+    color: #188396;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #be2900;
+    text-decoration: underline;
+}
+
+input:checked {
+    background-color: #188396 !important;
+}
+
+input,
+select {
+    cursor: pointer;
+}
+
+.error {
+    border: #1e2094 1px;
+}
+
+button {
+    background-color: #af4eb8 !important;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1e2094 !important; 
+}
+
+#forgot-pass {
+    font-weight: bold;
+    text-align: end;
+    font-size: 12px;
+}
