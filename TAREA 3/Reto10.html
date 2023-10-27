@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>RETO 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Img/favicon.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="css/Reto10.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">FOODFAST</h1>
+    </header>
+
+    <section class="container">
+        <div class="row">
+
+
+            <div class="col-sm-6">
+                <div class="pt-5"></div>
+                <div class="pt-5"></div>
+                <h3>EMPLEADOS</h3> <br>
+                <p>
+                    Indique el código de empleado:
+                     <!-- Empleados van de 1 a 5-->
+                </p>
+                </p>
+                <div class="formato1">
+                    <input type="text" id="escala_txt" maxlength="2" size="2" /> <br><br>
+                    <input type="button" class="btn btn-primary" value="Buscar" id="Buscar" onclick="Empleado();">
+                    <input type="button" class="btn btn-primary" id="Limpiar" value="Limpiar" onclick="Limpiar();">
+                    
+                    
+
+                    <br><br>
+                    <p id="resultado"></p>
+
+                </div>
+                <div class="pt-3"></div>
+            </div>
+
+            <div class="col-sm-6 d-flex align-items-center">
+
+                <div id="ima0" class="img-fluid">
+                    <img src="Img/EMPRESA.jpg" alt="empresa" class="img-fluid">
+                </div>
+
+                <div id="ima1" style="display: none">
+                    <img src="Img/Gerente.jpg" alt="Roberto Castañeda" class="img-fluid">
+                </div>
+                <div id="ima2" style="display: none">
+                    <img src="Img/Sub.jpg" alt="Emilia Robles" class="img-fluid">
+                </div>
+                <div id="ima3" style="display: none">
+                    <img src="Img/Chef.jpg" alt="Shane Osburn" class="img-fluid">
+                </div>
+                <div id="ima4" style="display: none">
+                    <img src="Img/SuChef.jpg" alt="Yen Wo" class="img-fluid">
+                </div>
+                <div id="ima5" style="display: none">
+                    <img src="Img/camaeror.jpg" alt="Miguel Obando" class="img-fluid">
+                </div>
+                <div id="ima6" style="display: none">
+                    <img src="Img/cajero.jpg" alt="Estela Martinez" class="img-fluid">
+                </div>
+                <div id="ima7" style="display: none">
+                    <img src="Img/Conserje.jpg" alt="Marcos Falls" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <h2>Derechos Reservados</h2>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="js/Reto10.js"></script>
+
+</body>
+
+</html>

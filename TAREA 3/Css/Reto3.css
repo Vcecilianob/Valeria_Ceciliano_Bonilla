@@ -1,0 +1,119 @@
+h1 {
+    color: rgb(255, 255, 255);
+    padding: 0px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-top: 2; 
+}
+
+h2 {
+    color: rgb(71, 34, 34);
+    padding: 0px;
+    text-align: center; 
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 0; 
+}
+h3 {
+    color: #000000;
+    text-align: center; 
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: auto;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    margin: auto;
+    text-decoration: underline;
+}
+
+h5 {
+    color: #000000;
+    text-align: center; 
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    margin-bottom: 1cm;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+p {
+    color: #000000; 
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to right, #5c1a1a, #c51a04);
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    left: 0;
+    padding: 5px;
+    background-color:#5c1a1a; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.movie-container {
+    text-align: center;
+    padding: 0px; 
+    margin: 0px;
+}
+
+
+.food-image {
+    width: 350px; 
+    height: 500px;
+    object-fit: cover; 
+    margin: 0 auto; 
+}
+
+.galeria .galeriaFotos {
+    display: none;
+}
+
+
+.hide {
+    visibility: hidden;
+}
+
+select.form-select-lg {
+    font-size: 1rem; /* Tamaño de fuente más grande */
+    padding: 10px;    /* Relleno más grande */
+    border-radius: 60px;
+}
+
+.img-fluida {
+    max-width: 100%;
+    height: auto;
+}

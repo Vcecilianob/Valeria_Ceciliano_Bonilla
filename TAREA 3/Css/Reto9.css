@@ -1,0 +1,91 @@
+.fuente1 {
+    font-size: 20px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.negrita {
+    font-weight: bolder;
+}
+
+.tam1 img{
+    width: 30%;
+}
+
+label {
+    font-size: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+input[name="r"][value="dato1"],
+[value="dato2"],
+[value="dato3"], 
+[value="dato4"]{
+    margin: 12px 20px;
+    transform: scale(0.8);
+}
+
+
+
+input[type="radio"]:after {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: -1px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #000;
+}
+
+input[type="radio"]:checked:after {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: -1px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #910f96;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #000;
+}
+
+label {
+    display: table; 
+    align-items: center; 
+    text-align: center;
+}
+
+textarea {
+    display: flex; 
+
+}
+
+header {
+    background-image: linear-gradient(to right, #a11800, #961511);
+    text-align: center; 
+    color: white;
+  }
+
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+  }
+
+  

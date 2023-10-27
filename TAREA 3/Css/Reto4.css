@@ -1,0 +1,43 @@
+header {
+  background-color: #3d317e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(to right, #3a9cad, #af4eb8);
+  text-align: center; 
+  color: white;
+}
+
+input, select {
+  cursor: pointer;
+}
+
+.error {
+  border: rgb(255, 0, 234) solid 1px;
+}
+
+button {
+  background-color: #65b2c5 !important;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #b4019c !important; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  left: 0;
+  padding: 5px;
+  background-color:#357d8a; 
+  color: white;
+  text-align: center;
+}

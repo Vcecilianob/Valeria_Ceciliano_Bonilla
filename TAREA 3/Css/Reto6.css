@@ -1,0 +1,74 @@
+header {
+    background-color: rgb(145, 132, 132);
+    height: 70px;
+}
+
+.banner {
+    background-image: url("../Img/BANNERC.jpg");
+    height: 500px;
+    background-size: cover;
+}
+
+
+.btncirculos {
+    padding: 15px;
+    border: none;
+    /*distancia entre ellos*/
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.img img {
+    width: 60%;
+}
+
+.img {
+    padding-top: 10px;
+}
+
+.info {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.info h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.info3 {
+    box-shadow: 3px 3px 10px #4d4d4d;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 40px 20px;
+    border: solid rgb(180, 180, 180) 1px;
+}
+
+.info2 {
+    padding: 10px 80px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+h3 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    margin-top: 70px;
+    background-color: rgb(145, 132, 132);
+    height: 150px;
+    color: rgb(255, 255, 255)
+}
+
+.zapato {
+    padding: 25px 30px 5px 30px;
+}
+
+

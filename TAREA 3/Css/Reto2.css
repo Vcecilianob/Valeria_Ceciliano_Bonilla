@@ -1,0 +1,122 @@
+.contenedor {
+    margin-left: 190px;
+}
+
+
+
+p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+form {
+    margin-top: 80px;
+}
+
+label {
+    letter-spacing: 3px;
+    font-size: 17px;
+    margin-right: 25px;
+}
+
+.imagen {
+    padding: 30px;
+    text-align: center;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 2px 5px;
+    border: blue 2px solid;
+}
+
+.input2 {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 11px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-image: linear-gradient(to right, #5c1a1a, #c51a04);
+    color: #fff;
+    text-align: center;
+    padding: 2px 0px; /* Reducido el margen superior a 2px */
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    left: 0;
+    padding: 0px;
+    background-color:#5c1a1a; 
+}
+
+
+h2 {
+    color: rgb(71, 34, 34);
+    padding: 0px;
+    text-align: center; 
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 0; 
+}
+
+
+h4 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.eleccion {
+    margin-left: 30px;
+}
+
+
+.eleccion h5 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+#txtResultadoMontoFinal {
+    font-size: 24px;
+}
+
+.txttotal {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.btn-custom-round {
+    border-radius: 60px; 
+    width: 150px; 
+}
+
+.btn-custom-color {
+    background-color: #a12509; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 20px; 
+    font-weight: bold; 
+    font-size: 80%; 
+}
+
+.btn-custom-color:hover {
+    background-color: #e64a26; /
+}
+
