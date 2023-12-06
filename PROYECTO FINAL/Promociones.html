@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CINEMAX</title>
+    <link href="Img/Claqueta.png" rel="icon">
+    <link rel="stylesheet" href="css/Promociones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+</head>
+<body>
+    <header class="bg-primary">
+        <h1>CINEMAX</h1>
+        <div id="Acccesos">
+            <button class="btn btn-light" id="Inicio">Inicio</button>
+            <button class="btn btn-light" id="Preventa">Proximamente</button>
+            <button class="btn btn-light" id="Cartelera">Cartelera</button>
+            <button class="btn btn-light" id="Dulceria">Dulceria</button>
+            <button class="btn btn-light" id="Promociones">Promociones</button>
+            <button class="btn btn-light" id="Contacto">Contacto</button>
+            <button class="btn btn-light" id="Opiniones">Opiniones</button>
+            <button class="btn btn-light" id="Nosotros">Nosotros</button>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/tupagina" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tuinstagram" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/tucanal" target="_blank" class="icon-link"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="pb-3"></div>
+    </header>
+
+    <div class="blue-container container">
+        <h4>ESPECIALIDAD POR SUCURSAL</h4>
+        <div class="row gx-5 gy-4 mt-4">
+            <div class="col-sm-12 col-md-6 col-lg-6" id="text-section">
+                <section>
+                    <div>
+                        <p>"Nuestras cuatro sucursales de cine se distinguen por ofrecer una experiencia única y personalizada para cada tipo de cinéfilo."</p>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <select class="form-select" id="Food">
+                            <option value="" selected disabled>Seleccione una sucursal</option>
+                            <option value="1">Desamparados</option>
+                            <option value="2">Alajuela</option>
+                            <option value="3">Heredia</option>
+                            <option value="4">Cartago</option>
+                        </select>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6" id="image-section">
+                <div class="d-flex justify-content-center mb-2" id="output-img">
+                </div>
+                <div class="text-center fst-italic" id="output-txt">->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div> 
+        <hr>
+    <h5>
+        ¡Descubre nuestras ofertas imperdibles, soluciones corporativas y eventos festivos! 
+    </h5>
+
+        <h6>
+            En esta sección, te sumergirás en un mundo de promociones tentadoras, opciones exclusivas para empresas y la planificación perfecta para celebraciones inolvidables. Desde descuentos únicos hasta servicios adaptados a las necesidades empresariales, y la organización de eventos que dejarán huella, te invitamos a explorar todo lo que tenemos preparado para ti.
+    </h6>
+
+        <section>
+               <!-- tabs -->
+               <div class="pt-5"></div>
+               <div class="tab tam1">
+                   <button class="tablinks" onclick="opciones(event, '2X1')">2X1</button>
+                   <button class="tablinks" onclick="opciones(event, 'SALAS')">SALAS</button>
+                   <button class="tablinks" onclick="opciones(event, 'COORPORATIVO')">COORPORATIVO</button>
+                   <button class="tablinks" onclick="opciones(event, 'FIESTAS')">FIESTAS</button>
+
+               </div>
+               <div id="2X1" class="tabcontent">
+                   <h3>2X1 VISA</h3>
+                   <p class="p3">
+                    ¡Llegó la oferta que estabas esperando para disfrutar del cine al doble de diversión! Presentamos nuestro exclusivo 2x1 en entradas de cine al pagar con tarjetas Visa. 
+                    
+                    <br><br>
+                    ¿Estás listo para sumergirte en historias increíbles y compartir esta experiencia con alguien especial?
+                    </p>
+                
+
+                    <p class="p2">No dejes pasar esta oportunidad de disfrutar del mejor cine al precio de uno solo con tu tarjeta Visa!
+                    </p>
+                  
+                   <img src="Img/2X1.png" alt="historia" class="img-fluid">
+               </div>
+   
+               <div id="COORPORATIVO" class="tabcontent">
+                   <h3>COORPORATIVO</h3>
+                   <p>
+                    ¿Buscas una experiencia cinematográfica única para tu próximo evento corporativo? Nuestras promociones exclusivas en entradas de cine te ofrecen la oportunidad de llevar la magia del séptimo arte directamente a tu equipo o clientes.
+                    </p>  
+                    
+                    <p class="p3">¡Sumérgete en la emoción del cine con nuestras ofertas especiales para eventos corporativos y haz que tu próxima reunión sea todo un éxito!
+                    </p>
+                <p class="p2">20% de descuento en paquetes coorporativos
+                </p>
+
+                   <img src="Img/Corp.png" alt="mision" class="img-fluid">
+               </div>
+   
+               <div id="FIESTAS" class="tabcontent">
+                   <h3>FIESTAS</h3>
+                   <p>
+                    ¡Prepárate para convertir tu próxima fiesta en un evento cinematográfico inolvidable! Nuestras promociones exclusivas en entradas de cine te brindan la oportunidad de llevar la magia de la pantalla grande directamente a tu fiesta privada. 
+                    <br><br>
+                    ¿Quieres sorprender a tus invitados con una experiencia única?
+                    </p>
+                <p class="p2">Paquetes de fiesta hasta para 100 personas.
+                </p>
+
+                   <img src="Img/FIESTA.png" alt="vision" class="img-fluid">
+               </div>
+
+               <div id="SALAS" class="tabcontent">
+                   <h3>SALAS</h3>
+                   <p>
+                    ¿Estás buscando la manera perfecta de hacer que tu evento sea inolvidable? Te ofrecemos nuestros exclusivos paquetes para eventos en nuestras salas de cine, adaptados a tus necesidades y preferencias.
+                   </p>
+                   <p class="p2">Nuestra variedad de paquetes incluye opciones para todos los gustos</p>
+                   <div>
+                    <div class="radio-container">
+                        <div>
+                          <input type="radio" id="2D" name="Salatipo" value="2D">
+                          <label for="2D">2D</label>
+                          <input type="radio" id="3D" name="Salatipo" value="3D">
+                          <label  for="3D">3D</label>
+                          <input class="labelrad" type="radio" id="4D" name="Salatipo" value="4D">
+                          <label  for="4D">4D</label>
+                        </div>
+                      </div>
+                      
+                </div>
+                <img src="Img/3D.jpg" class="img-fluid" id="Imagen3D" style="display: none; max-width: 100%;" alt="Imagen3D">
+                <p class="labelp"  id="mensaje3D" style="display: none;">Aquí, la experiencia se mejora con la proyección en 3D. Suele ser más inmersiva y puede incluir gafas 3D para los asistentes. Además de lo anterior, los paquetes pueden ofrecer opciones adicionales como aperitivos especiales o promociones exclusivas.</p>
+
+
+
+                <img src="Img/Cinekids.jpg" class="img-fluid" id="Imagen2D" style="display: none; max-width: 100%;" alt="Imagen2D">
+                <p  class="labelp"  id="mensaje2D" style="display: none;">Este paquete normalmente incluye la proyección estándar en dos dimensiones. Puede ofrecer tarifas especiales para grupos, alquiler de la sala o paquetes de comida y bebida.</p>
+
+                <img src="Img/4D.jpg" class="img-fluid" id="Imagen4D" style="display: none; max-width: 100%;" alt="Imagen4D">
+                <p class="labelp"  id="mensaje4D" style="display: none;">La experiencia 4D va más allá al agregar efectos sensoriales adicionales durante la proyección, como movimiento de asientos, efectos de viento, agua, aromas, entre otros. Los paquetes para eventos en salas 4D a menudo son más especializados y pueden incluir servicios premium.</p>
+
+            </div>
+            </section>
+
+    <section>
+            <h3>
+                ¡Cupones! 
+            </h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="imageContainer">
+                        <img id="myImg1" src="Img/Pets.jpg" style="width: auto;">
+                        <img id="myImg2" src="Img/Mastercard.jpg" style="width: auto;">
+                        <img id="myImg3" src="Img/Cinepack.jpg" style="width: auto;">
+                        <img id="myImg4" src="Img/Refil.jpg" style="width: auto;">
+                        <div id="modal1" class="modal">
+                            <div class="close">&times;</div>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pt-5">
+                        <div id="modal2" class="modal">
+                            <div class="close">&times;</div>
+                            <img class="modal-content" id="img02">
+                            <div id="caption2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-5">
+                    <div id="modal3" class="modal">
+                        <div class="close">&times;</div>
+                        <img class="modal-content" id="img03">
+                        <div id="caption3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-5">
+                <div id="modal4" class="modal">
+                    <div class="close">&times;</div>
+                    <img class="modal-content" id="img04">
+                    <div id="caption4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+            
+            
+<footer class="bg-primary">
+<h2>Derechos Reservados</h2>
+</footer>
+        
+    
+            <script src="Js/Promociones.js"></script>
+            <script src="Js/Botones.js"></script>
+            <script src="Js/Combo1.js"></script>
+        </body>
+        </html>
+        

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CINEMAX</title>
+    <link href="Img/Claqueta.png" rel="icon">
+    <link rel="stylesheet" href="Css/Compra.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <header class="bg-primary">
+        <h1>CINEMAX</h1>
+        
+        <div id="Acccesos">
+            <button class="btn btn-light" id="Inicio">Inicio</button>
+            <button class="btn btn-light" id="Preventa">Proximamente</button>
+            <button class="btn btn-light" id="Cartelera">Cartelera</button>
+            <button class="btn btn-light" id="Dulceria">Dulceria</button>
+            <button class="btn btn-light" id="Promociones">Promociones</button>
+            <button class="btn btn-light" id="Contacto">Contacto</button>
+            <button class="btn btn-light" id="Opiniones">Opiniones</button>
+            <button class="btn btn-light" id="Nosotros">Nosotros</button>
+            <button class="cerrarSesion"  id="cerrarSesion">Cerrar Sesión</button>
+        </div>
+    </header>
+
+    <br>
+    <section class="container">
+        <form id="Inscripcion" class="formulario">
+
+        <h3>Datos de compra</h3> <br>
+        
+
+        <label for="nombre">Nombre:</label>
+        <input class="labelspace" type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input class="labelspace" type="text" id="apellido" name="apellido">
+        <br><br>
+
+        <label for="cedula">Cedula:</label>
+        <input class="labelspace" type="text" id="cedula" name="cedula">
+        <br><br>
+
+
+        <label for="numero">Número:</label>
+        <input class="labelspace" type="text" id="numero" name="numero">
+        <br><br>
+
+
+        <label for="Correo">Correo electrónico:</label>
+        <input class="labelspace" type="text" id="Correo" name="Correo">
+        <br><br>
+
+        <hr>
+        <!--PELICULA-->
+
+        <h4>Datos de la función</h4>
+
+
+        <label for="Pelicula">Pelicula:</label>
+        <select id="Pelicula" name="Pelicula" class="labeltab">
+            <option value="opcion0" selected disabled class="opcion0">Seleccione</option>
+            <option value="Ant-Man y la Avispa" class="opcion1">Ant-Man y la Avispa</option>
+            <option value="La casa del terror" class="opcion2">La casa del terror</option>
+            <option value="Frozen II" class="opcion3">Frozen II</option>
+            <option value="Star Wars: El ultimo Jedi" class="opcion4">Star Wars: El ultimo Jedi</option>
+            <option value="Esta abuela es mi padre" class="opcion4">Esta abuela es mi padre</option>
+            <option value="Anabelle" class="opcion4">Anabelle</option>
+            <option value="Dumbo" class="opcion5">Dumbo</option>
+            <option value="Linterna Verde" class="opcion6">Linterna Verde</option>
+            <option value="Monster House" class="opcion7">Monster House</option>
+            <option value="La liga de la justicia" class="opcion4">La liga de la justicia</option>
+            <option value="Monstruos vrs Aliens" class="opcion8">Monstruos vrs Aliens</option>
+            <option value="Predestinacion" class="opcion9">Predestinacion</option>
+        </select>
+        <br><br>
+
+
+        <label for="Sucursal">Sucursal:</label>
+        <select id="Sucursal" name="Sucursal" class="labeltab">
+            <option value="opcion0" selected disabled class="opcion0">Seleccione</option>
+            <option value="Desamparados" class="opcion1">Desamparados</option>
+            <option value="Alajuela" class="opcion2">Alajuela</option>
+            <option value="Heredia" class="opcion3">Heredia</option>
+            <option value="Cartago" class="opcion4">Cartago</option>
+        </select>
+        <br><br>
+
+        <label for="Hora">Hora:</label>
+        <select id="Hora" name="Hora" class="labeltab">
+            <option value="opcion0" selected disabled class="opcion0">Seleccione</option>
+            <option value="1:00pm" class="opcion1">1:00pm</option>
+            <option value="3:00pm" class="opcion2">3:00pm</option>
+            <option value="5:00pm" class="opcion3">5:00pm</option>
+            <option value="7:00pm" class="opcion4">7:00pm</option>
+            <option value="9:00pm" class="opcion4">9:00pm</option>
+            <option value="11:00pm" class="opcion4">11:00pm</option>
+        </select>
+        <br><br>
+        
+        <label for="Cantidad">Entradas:</label>
+        <input class="labelspace" type="number" id="Cantidad" name="Cantidad" min="0" max="10">
+        <br><br>
+
+        <hr>
+
+              <!--PAGO-->
+        <h4>Datos de pago</h4>
+
+        <label  for="TipoTarjeta">Tarjeta:</label>
+        <select id="TipoTarjeta" name="TipoTarjeta" class="labeltab">
+            <option value="opcion0" selected disabled class="opcion0">Seleccione</option>
+            <option value="VISA" class="opcion1">VISA</option>
+            <option value="MasterCard" class="opcion2">MasterCard</option>
+            <option value="Amex" class="opcion3">Amex</option>
+        </select>
+        <br><br>
+
+        <label for="NumeroTarjeta">Numero de Tarjeta:</label>
+        <input class="labelspace" type="text" id="NumeroTarjeta" name="NumeroTarjeta" pattern="\d{1,15}" title="Máximo 15 dígitos" maxlength="15" minlength="15">
+        <br><br>
+
+        <label  for="CCV">CCV:</label>
+        <input class="labelspace" type="text" id="CCV" name="CCV" pattern="\d{1,4}" title="Máximo 4 dígitos" maxlength="4">
+        <br><br>
+        
+
+        <label  for="Expiracion">Expiración:</label>
+        <input class="labelspace" type="date" id="Expiracion" name="Expiracion">
+        <br><br>
+
+
+
+        <!--BOTONES-->
+
+        <input id="calcularBtn" class="calcularBtn" type="button" value="Calcular">
+        <input type="button" onclick="cleanInputs()" value="Limpiar" class="btn-limpiar"></input>
+        <input id="btnsend" type="submit" value="Pagar" class="btn-enviar">
+        <p id="alerta"></p>
+        <p id="resultadoCalculo"></p>
+    </form>
+
+    <br><br><br><br>
+    <section class="section3D">
+        <h5>Nuestros asientos</h5>
+        <p class="p2"> ¿No es increíble cómo un lugar para sentarse puede transformar completamente nuestra experiencia? Desde la suave textura del material hasta el soporte ergonómico que abraza tu cuerpo, cada aspecto está diseñado para brindarte comodidad mientras te sumerges en historias fascinantes.</p>
+    <div id="Container3D" class="Container3D">
+        <section id="Container3D">
+            <model-viewer src="Img/siege_cine.glb" poster="" alt="Escenario 3D" shadow-intensity="1" camera-controls auto-rotate ar onclick="reproducirAudio()"></model-viewer>
+            <audio id="myAudio" src="audio/audio.mp3"></audio>
+            <div class="modal">
+                <div class="modal-content" style="background-image: url('..assets/textura1.jpg');"></div>
+            </div>
+        </section>
+    </div>
+    </section>    
+</section>
+
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+
+
+    
+    <footer class="bg-primary">
+        <h2>Derechos Reservados</h2>
+    </footer>
+
+
+    <script src="Js/Compra.js"></script>
+    <script src="Js/Botones.js"></script>
+
+    <script>
+        function reproducirAudio(){
+            var audio=document.getElementById('myAudio');
+            audio.play();
+
+        }
+
+    </script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+</body>
+</html>

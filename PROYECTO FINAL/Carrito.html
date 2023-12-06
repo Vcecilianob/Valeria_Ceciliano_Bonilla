@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+    <link rel="stylesheet" href="Css/Carrito.css">
+    <script src="Js/Carritos.JS" async></script>
+
+    <title>CINEMAX </title>
+    <link href="Img/Claqueta.png" rel="icon">
+</head>
+<body>
+    <header>
+        <h1>CINEMAX</h1>
+        <button onclick="cambiarColores()" id="botonImagen">
+            <img src="Img/oscuro.png" alt="Texto alternativo">
+        </button>
+        <button onclick="anularCambios()" id="botonImagen">
+            <img src="Img/Claro.webp" alt="Texto alternativo">
+        </button>
+
+        <div id="Acccesos">
+
+            <button class="btn btn-light" id="Inicio">Inicio</button>
+            <button class="btn btn-light" id="Preventa">Proximamente</button>
+            <button class="btn btn-light" id="Cartelera">Cartelera</button>
+            <button class="btn btn-light" id="Dulceria">Dulceria</button>
+            <button class="btn btn-light" id="Promociones">Promociones</button>
+            <button class="btn btn-light" id="Contacto">Contacto</button>
+            <button class="btn btn-light" id="Opiniones">Opiniones</button>
+            <button class="btn btn-light" id="Nosotros">Nosotros</button>
+            <button class="cerrarSesion"  id="cerrarSesion">Cerrar Sesión</button>
+        </div>
+    </header>
+
+
+    <p>PELICULAS DISPONIBLES</p>
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Ant-Man y la Avispa</span>
+                <img src="Img/Pelicula1.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La casa del terror</span>
+                <img src="Img/Pelicula2.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Frozen II</span>
+                <img src="Img/Pelicula3.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Star Wars: El ultimo Jedi</span>
+                <img src="Img/Pelicula4.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Esta abuela es mi padre</span>
+                <img src="Img/pelicula5.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Anabelle</span>
+                <img src="Img/pelicula6.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Dumbo</span>
+                <img src="Img/pelicula7.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Linterna Verde</span>
+                <img src="Img/Pelicula1.1.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Monster House</span>
+                <img src="Img/Pelicula2.2.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La liga de la justicia</span>
+                <img src="Img/Pelicula3.3.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Monstruos Vrs Aliens</span>
+                <img src="Img/Pelicula 4.4.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Predestinacion</span>
+                <img src="Img/Pelicula5.5.jpg" alt="" class="img-item">
+                <span class="precio-item">3.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+
+
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Total</strong>
+                    <span class="carrito-precio-total">
+                        $3500,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Ordenar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

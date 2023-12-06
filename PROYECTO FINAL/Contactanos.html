@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CINEMAX</title>
+    <link href="Img/Claqueta.png" rel="icon">
+    <link rel="stylesheet" href="Css/Contactanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+</head>
+<body style="background-image: url('Img/Mosaico.jpg');">
+    <header class="bg-primary">
+        <h1>CINEMAX</h1>
+        <div id="Acccesos">
+            <button class="btn btn-light" id="Inicio">Inicio</button>
+            <button class="btn btn-light" id="Preventa">Proximamente</button>
+            <button class="btn btn-light" id="Cartelera">Cartelera</button>
+            <button class="btn btn-light" id="Dulceria">Dulceria</button>
+            <button class="btn btn-light" id="Promociones">Promociones</button>
+            <button class="btn btn-light" id="Contacto">Contacto</button>
+            <button class="btn btn-light" id="Opiniones">Opiniones</button>
+            <button class="btn btn-light" id="Nosotros">Nosotros</button>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/tupagina" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tuinstagram" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/tucanal" target="_blank" class="icon-link"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="pb-3"></div>
+    </header>
+
+    <br>
+    
+    <form id="Inscripcion" class="formulario">
+
+        <h3>Datos de contacto</h3> <br>
+        
+
+
+        <label for="nombre">Nombre:</label>
+        <input class="labelspace" type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input class="labelspace" type="text" id="apellido" name="apellido">
+        <br><br>
+
+        <label for="cedula">Cedula:</label>
+        <input class="labelspace" type="text" id="cedula" name="cedula">
+        <br><br>
+
+
+        <label for="numero">Número:</label>
+        <input class="labelspace" type="text" id="numero" name="numero">
+        <br><br>
+
+
+        <label for="Correo">Correo electrónico:</label>
+        <input class="labelspace" type="text" id="Correo" name="Correo">
+        <br><br>
+
+        <label class="labelfont" for="Sucursal">Sucursal:</label>
+        <select id="Sucursal" name="Sucursal" class="labeltab">
+            <option value="opcion0" selected disabled class="opcion0">Seleccione</option>
+            <option value="Desamparados" class="opcion1">Desamparados</option>
+            <option value="Alajuela" class="opcion2">Alajuela</option>
+            <option value="Heredia" class="opcion3">Heredia</option>
+            <option value="Cartago" class="opcion4">Cartago</option>
+        </select>
+        <br><br>
+
+        <label class="labelfont" for="Asunto">Asunto:</label>
+        <select id="Asunto" name="Asunto"class="labeltab">
+            <option selected disabled value="Seleccione el asunto">Seleccione</option>
+            <option value="Queja">Queja</option>
+            <option value="Reclamo">Reclamo</option>
+            <option value="Devoluciones">Devoluciones</option>
+            <option value="Sugerencias">Sugerencias</option>
+        </select>
+        <br><br>
+
+        <label for="Mensaje">Mensaje:</label>
+        <input class="labelspace" type="text" id="Mensaje" name="Mensaje">
+        <br><br>
+
+
+
+        <!--BOTONES-->
+        <input id="btnsend" type="submit" value="Enviar" class="btn-enviar">
+         
+        <input type="button" onclick="cleanInputs()" value="Limpiar" class="btn-limpiar"></input> 
+        <p id="alerta"></p>
+        
+    </form>
+    <br><br><br><br>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+
+
+    
+    <footer class="bg-primary">
+        <h2>Derechos Reservados</h2>
+    </footer>
+
+
+    <script src="Js/Contactanos.js"></script>
+    <script src="Js/Botones.js"></script>
+</body>
+</html>
